@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    font-family: "Montserrat", sans-serif;;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 100svw;
+    background: #DFDFDF;
+}
+
+.cardsContainer {
+    color: #FBFEF9;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+}
+
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #FBFEF9;
+    font-size: 12px;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FBFEF9;
+}
+
+.bio {
+    text-align: center;
+    max-width: 350px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    width: 300px !important;
+    text-align: center;
+    padding: 10px !important;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.github {
+    background: #FBFEF9;
+    color: #5F4BB6;
+}
+
+.github:hover{
+    background: rgb(230, 230, 230);
+}
+.blog{
+    background: #5F4BB6;
+    color: white;
+}
+
+.blog:hover{
+    background: #52419F;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background: #131112;
+    gap: 20px;
+    padding: 50px;
+}
+
+.languagesContainer{
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    padding: 40px 0px;
+    background-color: #5F4BB6;
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    color: #FBFEF9;
+}
+
+
+.languages-list{
+    padding-right: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    gap: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.language{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.card img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+/* Estilo para a barra de rolagem */
+.languages-list::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem */
+}
+
+/* Estilo para o fundo da barra de rolagem */
+.languages-list::-webkit-scrollbar-track {
+  background: #2e2e2e; /* Cor de fundo */
+}
+
+/* Estilo para a alça da barra de rolagem */
+.languages-list::-webkit-scrollbar-thumb {
+  background: #FBFEF9; /* Cor da alça */
+  border-radius: 4px; /* Arredondamento dos cantos da alça */
+}
+
+/* Altera a cor da alça ao passar o mouse */
+.languages-list::-webkit-scrollbar-thumb:hover {
+  background: #cbcec9;
+}
